@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A3F1EB32-7E9B-4C83-A208-33D4F6B313ED"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CAD503B2-3119-4B80-8EF4-8BBC01CC0BF7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestAssignment/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "mapViewAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "456AEC18-1982-4913-98FC-B497FCA120C0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestAssignment/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "326"
+            endingLineNumber = "326"
+            landmarkName = "searchView(_:didTextChangeTo:textLength:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "456AEC18-1982-4913-98FC-B497FCA120C0 - b9e5a005f6c452db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestAssignment.ViewController.searchView(_: TestAssignment.AZSearchViewController, didTextChangeTo: Swift.String, textLength: Swift.Int) -&gt; ()"
+                  moduleName = "TestAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arnabmaity/Desktop/TestAssignment/TestAssignment/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "316"
+                  endingLineNumber = "316"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "456AEC18-1982-4913-98FC-B497FCA120C0 - cd764dcaff5cf87d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TestAssignment.TruckModels) -&gt; Swift.Bool in TestAssignment.ViewController.searchView(_: TestAssignment.AZSearchViewController, didTextChangeTo: Swift.String, textLength: Swift.Int) -&gt; ()"
+                  moduleName = "TestAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arnabmaity/Desktop/TestAssignment/TestAssignment/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "318"
+                  endingLineNumber = "318"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
