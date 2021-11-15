@@ -98,7 +98,7 @@
                                 </variation>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bS3-Dk-9GA">
-                                <rect key="frame" x="0.0" y="77" width="414" height="785"/>
+                                <rect key="frame" x="0.0" y="79" width="414" height="783"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TruckViewCell" rowHeight="80" id="lHA-Ph-arj" customClass="TruckViewCell" customModule="TestAssignment" customModuleProvider="target">
@@ -217,7 +217,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="bS3-Dk-9GA" firstAttribute="top" secondItem="O1H-AI-HsX" secondAttribute="bottom" id="7l8-g5-pAO"/>
+                            <constraint firstItem="bS3-Dk-9GA" firstAttribute="top" secondItem="O1H-AI-HsX" secondAttribute="bottom" constant="2" id="7l8-g5-pAO"/>
                             <constraint firstItem="O1H-AI-HsX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Hba-Fn-nPV"/>
                             <constraint firstItem="bS3-Dk-9GA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YqJ-Zs-L8i"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="O1H-AI-HsX" secondAttribute="bottom" constant="785" id="dCO-1c-NDn"/>
@@ -265,9 +265,6 @@
                                             <constraint firstAttribute="height" constant="30" id="tgc-Ec-vcE"/>
                                         </constraints>
                                         <state key="normal" image="menu"/>
-                                        <connections>
-                                            <action selector="backButton:" destination="zY0-8i-Gfx" eventType="touchUpInside" id="Fqo-te-WTg"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uHt-Sm-2E5">
                                         <rect key="frame" x="374" y="37" width="30" height="30"/>
@@ -289,6 +286,7 @@
                                         </constraints>
                                         <state key="normal" image="refresh"/>
                                         <connections>
+                                            <action selector="refershAction:" destination="zY0-8i-Gfx" eventType="touchUpInside" id="ub7-SX-Wou"/>
                                             <action selector="refreshCall:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EcO-2M-Uql"/>
                                         </connections>
                                     </button>

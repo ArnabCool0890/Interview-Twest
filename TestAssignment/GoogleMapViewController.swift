@@ -41,7 +41,19 @@ class GoogleMapViewController: UIViewController {
         self.navigationController?.popViewController(animated: true)
     }
 
+    @IBAction func refershAction(_ sender: UIButton) {
+        truckApiCall()
+    }
     
+    func truckApiCall(){
+        
+        TruckNetworkManager.getTruckService { (truckModel,msg) in
+            DispatchQueue.main.async {
+                self.trucksArr = truckModel!
+                
+            }
+        }
+    }
     func displayMarkers(){
         for i in trucksArr{
             let lastCoord = i.lastRunningState

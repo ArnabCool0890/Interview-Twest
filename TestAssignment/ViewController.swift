@@ -167,11 +167,6 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
         return cell
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let singleBookingVC = Constants.mainStoryBoard.instantiateViewController(withIdentifier: "GoogleMapViewController") as! GoogleMapViewController
-        singleBookingVC.trucksArr = filtteredArray
-        self.navigationController?.pushViewController(singleBookingVC, animated: true)
-    }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 78
         

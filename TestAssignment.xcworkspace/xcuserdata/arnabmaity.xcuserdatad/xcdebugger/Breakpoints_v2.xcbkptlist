@@ -30,8 +30,8 @@
             filePath = "TestAssignment/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "326"
-            endingLineNumber = "326"
+            startingLineNumber = "321"
+            endingLineNumber = "321"
             landmarkName = "searchView(_:didTextChangeTo:textLength:)"
             landmarkType = "7">
             <Locations>
