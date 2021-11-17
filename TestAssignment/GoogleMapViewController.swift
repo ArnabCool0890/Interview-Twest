@@ -61,7 +61,7 @@ class GoogleMapViewController: UIViewController {
             let marker = GMSMarker(position: position)
             
             let truckTime = getcurrentdate(timeStamp: Double(i.lastRunningState?.stopStartTime ?? 0)).hours(from: Date())
-            
+            marker.title = i.truckNumber
             
             if i.lastRunningState?.truckRunningState == 1{
                 marker.icon = UIImage(named: "truckGreen")
